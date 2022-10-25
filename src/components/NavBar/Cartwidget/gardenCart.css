@@ -1,0 +1,23 @@
+
+.nav__opciones__item {
+    margin-right: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    color: var(--light__text);
+    transition: 0.5s;
+}
+.icon:hover {
+    color: #8DC73F;
+}
+
+.GardenCart__count {
+    display: inline-block;
+    background-color: #8DC73F;
+    color: black;
+    position: absolute;
+    width: 19px;
+    border-radius: 50%;
+    text-align: center;
+}

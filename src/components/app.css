@@ -1,0 +1,18 @@
+:root {
+  --dark__text: black;
+  --light__text: rgb(185, 185, 185);
+  --light__text--hover: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+.header {
+  background-color: black;
+}
+

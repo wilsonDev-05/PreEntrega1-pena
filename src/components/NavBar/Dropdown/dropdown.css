@@ -1,0 +1,27 @@
+.dropdown__vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+/* .item__link--flex {
+    display: flex;
+    align-items: center;
+} */
+.li__item:hover .dropdown__vertical {
+    display: block;
+}
+.li__item--dropdown:hover {
+    background-color: rgba(255, 255, 255, 0.137);
+}
+.item__link--dropdown {
+    float: none;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+.item__link__icon {
+    font-size: 15px;
+}
